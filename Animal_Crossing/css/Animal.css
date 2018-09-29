@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* reset */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-size:14px;line-height:1.3em}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{color:#000;text-decoration:none;border:0}
+table{border-collapse:collapse;border-spacing:0}
+img{vertical-align:top}
+button{overflow:visible;border:0;padding:0;background:transparent;white-space:nowrap;cursor:pointer}
+button::-moz-focus-inner{padding:0;border:0}
+
+/*common*/
+.ir{display:block;overflow:hidden;text-indent:-9999px;background:url('../img/sp.png') no-repeat 0 0;background-size:1161px 695px;font-size:0;vertical-align:top}
+
+/*layout*/
+#wrap{overflow:hidden;min-width:1164px;background:url('../img/wrapper_bg.png') no-repeat center top}
+#header{position:relative;width:1152px;height:748px;margin:0 auto;padding-top:66px}
+#container{position:relative;margin-top:10px;padding-top:58px;padding-bottom:59px;background-image:url('../img/fence.jpg');background-position: 0 580px}
+#container:after{position:absolute;bottom:0;left:0;right:0;height:323px;background-image:url('../img/fence_shadow.png');background-position:bottom;background-repeat:repeat-x;content:''}
+#content{position:relative;z-index:10;width:1024px;margin:0 auto}
+
+/*animal_main header*/
+#header h1{position:absolute;top:55px;left:50%;margin-left:-152px;background-position:0 0;width:323px;height:120px}
+.gnb{background-position:0 -164px;width:1160px; height:72px;margin:0 auto}
+.gnb:after{display:block;clear:both;content:''}
+.gnb li{float:left;margin-top:13px}
+.gnb li span{margin-top:15px}
+.gnb a{display:block;position:relative;height:50px;padding:0 20px;text-align: center}
+.make_vil{margin-left:59px}
+.make_vil span{background-position:0 -122px;width:84px;height:21px}
+.what_place{margin-left:76px}
+.what_place span{background-position:-89px -122px;width:100px;height:21px}
+.new_content{margin-left:353px}
+.new_content span{background-position:-192px -122px;width:110px;height:21px}
+.together{margin-left:68px}
+.together span{background-position:-304px -122px;width:68px;height:22px}
+iframe{margin:128px 0 0 166px}
+.rparker_img{position:absolute;top:294px;left:-296px}
+.tree_img{position:absolute;top:164px;right:-327px}
+.hog_img{position:absolute;top:487px;right:0}
+.fence_crown{position:absolute;top:680px;right:0;left:0;height:146px;background-image:url('../img/fence_upper.png');background-repeat:repeat-x}
+
+/*container*/
+.content_top:after, .content_bottom:after{display:block;clear:both;content:''}
+.content_bottom{margin-top:23px}
+.left_side{float:left;border-radius:10px}
+.right_side{float:right;border-radius:10px}
+
+/*item_alarm*/
+.items{width:500px;height:335px;background:#fff}
+.distribute_list{padding:17px 0;color:#666633;font-size:18px;font-weight:bold;text-align: center}
+.item_list{overflow-y:scroll;height:110px;background:#f6f6f6}
+.item_list li{height:22px;margin-bottom:7px}
+.item_list li:first-child{margin-top:16px}
+.distribute{padding: 0 16px;margin:0 29px 23px;border-radius:10px;background:#999966}
+.ing{background:#ff6699}
+.item_list .item_name{margin-left:100px}
+.description{margin:23px 0 0 30px;font-size:11px;color:#666;letter-spacing:-1px}
+.receiving{font-size:14px}
+.letter{margin-top:35px}
+
+/*question*/
+.question{position:relative;width:493px;height:58px;margin-bottom:19px;border:3px solid #cccc99;background:#fffaef}
+.question h2{display:inline-block;margin:21px 0 0 114px;font-size:18px;color:#60522a;font-weight:bold}
+.question .dots{position:absolute;top:20px;right:85px;color:#caba8e}
+.dog_pic{display:inline-block;position:absolute;bottom:-3px;left:32px;background-position:-325px 0; width:66px;height:94px}
+.go_pic{display:inline-block;position:absolute;bottom:11px;right:31px;background-position:-374px -122px; width:34px;height:34px}
+
+/*twitter*/
+.twitter{width:482px;height:252px;padding:0 8px 0 9px;background:#79bdec}
+.twitter h2{margin-top:16px;font-size:18px;color:#fff;text-align:center}
+.twit_list{overflow-y:scroll;height:192px;margin-top:14px;background:#f6f6f6}
+.twit_list li{position:relative;height:82px;margin:20px 18px 0 12px;padding-left:58px;border-bottom: 1px solid #ebebeb}
+.twit_list em{font-size:12px;font-weight: bold}
+.twit_id{font-size:11px;color:#787878}
+.date{font-size:11px;color:#aaaaaa}
+.twit_text{font-size:11px;color:#565656}
+
+/*content_bottom*/
+.content_bottom .left_side{border:3px solid #cccc99}
+.cafe{position:relative;width:134px;height:83px;padding-left:74px;background:#fffaef}
+.wallpaper{position:relative;width:151px;height:65px;padding:23px 0 0 54px;margin-top:19px;background:#fffaef}
+.quick_menu{position:fixed;bottom:0;right:0;width:88px;height:401px}
+.content_bottom p{font-size:18px;color:#60522a;font-weight:bold;letter-spacing:-3px;line-height:23px}
+.deer_pic{position:absolute;top:-3px;left:-3px;background-position:-445px 0;width:66px;height:89px}
+.cat_pic{position:absolute;bottom:0;right:30px;background-position:-513px 0;width:48px;height:109px}
+.content_bottom .bolder{margin-top:19px;font-weight:normal}
+.product_info{position:relative;width:559px;height:202px;padding-left:232px;background:#f9f9f9}
+.game_pic{display:block;position:absolute;top:22px;left:27px;background-position:-572px 0;width:176px;height:161px}
+.product_info h2{margin:30px 0 24px 0;color:#60522a}
+.content_bottom .product_info p{font-size:11px;color:#8e897a;letter-spacing:0;line-height:16px}
+.product_info ul{margin-bottom:18px}
+.product_info ul:after{display:block;clear:both;content:''}
+.product_info ul li{float:left;width:234px;font-size:11px;color:#524f48}
+
+/* footer */
+#footer{height:162px;background:#b09e6a;text-align:center;line-height:162px;font-size:16px;color:#fff}
